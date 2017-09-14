@@ -1,0 +1,302 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+    font-family: "Open Sans",Helvetica,Arial,sans-serif;
+}
+
+.semibold, span {
+	font-weight: bold;
+}
+
+.normal {
+    font-weight: normal;
+}
+
+.italic {
+    font-style: italic;
+}
+
+h1 {
+	margin-bottom: 20px;
+}
+
+.h3, h3 {
+	font-size: 25px;
+    margin-top: 0px;
+    margin-bottom: 25px;
+}
+}
+
+.h4, h4 {
+	font-size: 20px;
+	line-height: 1.2;
+    font-weight: normal;
+}
+
+.h5, h5 {
+    font-size: 15px;
+}
+
+p {
+	font-size: 18px;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+.topnav {
+    font-size: 18px; 
+    background-color: #7C9B90;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+	color: #e5e2e2;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #f3f0f0;
+}
+
+.navbar-default {
+    border: 0px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #ffffff;
+}
+
+.navbar-brand {
+	padding: 5px;
+}
+
+.logo {
+    height: 40px;
+}
+
+.greeting {
+    position: relative;
+    padding-top: 180px;
+    padding-bottom: 180px;
+}
+
+.first-container {
+    color: #ffffff;
+    background-image: url('./img/first.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #64897B;
+}
+
+.container-special {
+    width: 640px;
+}
+
+.insert-container {
+    background-image: url('./img/insert.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #ffffff;
+}
+
+.second-container {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background-color: #EEEEEE;
+}
+
+.green {
+	color: #507868;
+}
+
+.left-img {
+	margin-left: 0px;
+}
+
+/*third container*/
+.third-container {
+}
+
+.blue {
+	color: #4D2466;
+}
+
+/*fourth container*/
+.fourth-container {
+    padding-top: 60px;
+    padding-bottom: 90px;
+    background-color: #FBE1EC;
+}
+
+.rose {
+	color: #A31F5A;
+}
+
+/*fifth container*/
+
+
+.yellow {
+	color: #DFAF3F;
+}
+
+/*sixth container*/
+.sixth-container {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    color: #FFFFFF;
+    background-color: #251B56;
+}
+
+/*seventh container*/
+.seventh-container {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    text-align: center;
+}
+
+.btn {
+    width: 300px;
+    text-align: center;
+    padding: 10px 40px;
+    border-radius: 50px;
+    background-color: #3B3B3B;
+    color: #ffffff;
+    margin-top: 30px;
+    font-size: 18px;
+    border: solid 1px #eaeaea;
+}
+
+a, a:hover {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+/*team*/
+
+.tiimi-header {
+	text-align: left;
+	padding-left: 130px;
+}
+
+.team-list {
+	padding-top: 90px;
+    padding-bottom: 90px;
+    color: #ffffff;
+    background-color: #EEEEEE;
+    text-align: center;
+    background-image: url('./img/tiimi.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #ffffff;
+}
+
+.name-block {
+	text-align: left;
+	padding: 30px 110px;
+}
+
+.name {
+    height: 170px;
+    width: 170px;
+    border-radius: 1000px;
+    background-color: #3B3B3B;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 42px;
+    line-height: 170px;
+    display: inline-block;
+}
+
+.photo {
+    width: 200px;
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+
+/*footer*/
+footer {
+	padding-top: 50px;
+    padding-bottom: 50px;
+	color: #ffffff;
+	background-color: #507868;
+}
+
+.footer-logo {
+	padding: 0 40px;
+}
+
+/*else*/
+.padding30 {
+    padding: 30px 0;
+}
+
+.padding72 {
+    padding-top: 72px;
+}
+
+.margin90 {
+	margin-top: 120px;
+}
+
+.margin0 {
+	margin-left: 0;
+}
+
+.padding0 {
+    padding-left: 0;
+}
+
+.margin-right-0 {
+    margin-right: 0;
+}
+
+.padding-right-0 {
+    padding-right: 0;
+}
+
+.padding100 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+
+@media (max-width: 768px) {
+.wrapper {
+	display: flex; 
+	flex-direction: column;
+}
+
+.firstdiv {
+	order: 1;
+}
+
+.seconddiv {
+	order: 2;
+}
+
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+	margin-left: 20px;
+}
+
+.padding0 {
+	padding-left: 0;
+}
+
+
+.name-block {
+	text-align: center;
+	padding: 30px;
+}
+
+.navbar .in .nav li {
+   text-align: center;
+   width:100%;
+}
